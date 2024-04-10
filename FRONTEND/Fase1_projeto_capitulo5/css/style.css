@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  padding-top: 25px;
+}
+
+.lateral-menu {
+  position: relative;
+  width: 100%;
+  max-width: 980px;
+  height: 45px;
+  margin: auto;
+  font-size: 12px;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
+.lateral-menu ul {
+  display: flex;
+  justify-content: end;
+  background-color: #1b8e99;
+  height: 100%;
+  width: 100%;
+}
+
+.lateral-menu ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 95px;
+}
+
+.lateral-menu ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.lateral-menu ul li:hover {
+  transform: scale(1.25);
+  background-color: #92c9ce;
+}
+
+#lower-menu ul {
+  justify-content: start;
+  background-color: #660000;
+}
+
+#lower-menu ul li:hover {
+  background-color: white;
+}
+
+#lower-menu ul li:hover a {
+  color: #660000;
+}
+
+#logo-top {
+  position: absolute;
+  width: 194px;
+  height: 146px;
+  padding: 0 2rem;
+}
+
+#mainBanner {
+  height: 134px;
+  max-width: 980px;
+  width: 100%;
+  margin: auto;
+}
+
+#mainBanner img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.separattor-text-container {
+  display: flex;
+  position: relative;
+  width: 980px;
+  height: 77px;
+  margin: auto;
+}
+
+.extended-underline {
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 4px solid #660000;
+  line-height: 1.5;
+  flex-grow: 1;
+  margin-top: 30px;
+}
+
+.extended-underline p {
+  font-size: 25px;
+  font-family: Arial;
+  color: #660000;
+}
+
+#separator2 .extended-underline {
+  border-bottom: 4px solid #1b8e99;
+
+}
+
+#separator2 .extended-underline p {
+  color: #1b8e99;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+#drone-picture {
+  display: flex;
+  align-items: center;
+}
+
+#drone-picture img {
+  width: 125px;
+  height: 77px;
+  margin-top: 1rem;
+}
+
+.product-grid {
+  position: relative;
+  width: 980px;
+  height: 376px;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-tag {
+  width: 300px;
+  height: 376px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #1b8e99;
+}
+
+#product2{
+  border: 3px solid #660000;
+}
+
+.image-title-description {
+  width: 100%;
+  height: 280px;
+  position: relative;
+}
+
+.product-title {
+  width: 280px;
+  height: 25px;
+  background-color: #cff2f5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product2 .product-title{
+  background-color: #fadddd;
+}
+
+.product-title p {
+  color: #1b8e99;
+  text-align: center;
+  margin: 0;
+  font-family: Tahoma;
+}
+
+#product2 .product-title p{
+  color: #660000;
+}
+
+
+.product-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.product-description {
+  width: 280px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+  bottom: 15px;
+}
+
+
+.product-description p {
+  text-align: justify;
+  color: #1b8e99;
+  font-size: 13px;
+  height: 100%;
+  font-family: Tahoma;
+}
+
+#product2 .product-description p{
+  color: #660000;
+}
+
+.price-tag {
+  background-color: #1b8e99;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 96px;
+  padding: 0 18px;
+}
+
+#product2 .price-tag{
+  background-color: #660000;
+}
+
+.full-price,
+.installment-price {
+  text-align: right;
+  font-size: 30px;
+  font-family: Tahoma;
+  color: white;
+}
+
+.installment-price {
+  font-size: 14px;
+}
+
+.cart {
+  border-radius: 12%;
+  background-color: white;
+  height: 58px;
+  width: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart img {
+  height: 48px;
+  width: 52px;
+}
+
+#grey-line-separator {
+  border-bottom: 15px solid #444444;
+  width: 980px;
+  height: 10px;
+  margin: 20px auto;
+
+}
+
+#service-grid {
+  margin-bottom: 50px;
+  border-bottom: none;
+  position: relative
+}
+
+.service-tag {
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #660000;
+  border-bottom: 15px solid #660000;
+  font-family: Tahoma;
+}
+
+#service2{
+  border: 3px solid #1b8e99;
+  border-bottom: 15px solid #1b8e99;
+}
+
+.service-picture {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 137px;
+}
+
+.service-picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.service-description-tag {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  color: #660000;
+  width: 300px;
+  height: 297px;
+}
+
+#service2 .service-description-tag {
+  color: #1b8e99;
+}
+
+#title {
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+#description {
+  font-size: 13px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.baseboard {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 980px;
+  height: 164px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.baseboard p {
+  font-family: Tahoma;
+  color: white;
+  font-size: 14px;
+}
+
+#drone-imgs {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+  height: 42px;
+}
+
+#main-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 96px;
+  background-color: #1b8e99;
+}
+
+#main-section-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 900px;
+}
+
+#main-section-content img {
+  max-width: none;
+}
+
+#red-section {
+  width: 100%;
+  height: 26px;
+  background-color: #660000;
+  display: flex;
+  align-items: center;
+}
+
+#red-section p {
+  width: 900px;
+  text-align: right;
+  color: white;
+}
+
+#red-section img {
+  margin-top: -140px;
+}
