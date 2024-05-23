@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tituloDaPagina {
+    text-align: center;
+    
+}
+
+#container-geral{
+    box-sizing: border-box;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+
+#container-texto-para-format {
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#container-menu-de-config {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 500px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#titulo-do-menu {
+    text-align: center;
+}
+
+#container-menu-de-config label {
+    text-align: left;
+}
+
+#container-menu-de-config .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#texto-para-formatar {
+    width: 80%;
+}
+
+#btnLayer{
+    text-align: center;
+}
+#testarBtn {
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    align-self: center;
+}
